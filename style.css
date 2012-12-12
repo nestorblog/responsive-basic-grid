@@ -1,0 +1,376 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+outline:none;
+border:none;
+}
+
+html{
+	
+font-family: 'Arimo', sans-serif;
+color:#999;
+font-size:10pt;
+line-height:1.5em;
+	
+	
+	}
+
+body{
+	margin: 0;
+	padding: 0;
+	
+	
+	
+	}
+
+.imatge{
+
+	max-width: 100%;
+	height: auto;
+}
+
+a:link{
+	color:#333;
+	text-decoration:none;
+	}
+
+a:hover{
+	text-decoration:underline;
+	}
+
+
+a:visited{
+	color:#333;
+	}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+
+h1{
+	font-size:24px;
+	font-weight:bold;
+	
+	}
+
+h2{
+	font-size:18px;
+	font-weight:bold;
+	
+	}
+
+h3{
+	font-size:16px;
+	font-weight:bold;
+	
+	}
+
+h4{
+	font-size:14px;
+	font-weight:bold;
+	
+	}
+
+
+
+.contenidor{
+	margin: 0 auto;
+	overflow: hidden;
+	background-color:#CCC;
+	max-width: 90%;
+	
+	}
+
+header{
+	
+	clear:both;
+	float:left;
+	width:100%;
+	height:100px;
+	
+	}
+
+.logo{
+	width:160px;
+	height:50px;
+	margin-top:15px;
+	margin-left:10px;
+	float:left;
+	font-size: 14px;
+	color:#000;
+	
+	}
+
+
+
+.banner{
+	width:auto;
+	height:300px;
+	clear:both;
+	margin-top:10px;
+	margin-bottom:10px;
+	background-color:#666;
+	
+	}
+
+/* --------------------------- caixa que conte qualsevol tipologia de columna -------------------------*/
+
+article{
+	
+	margin:0 auto;
+	width: 100%;
+	overflow: hidden; 
+
+	
+	}
+
+/* --------------------------- dues columnes -------------------------*/
+
+.duescolumnes{
+	
+	
+	float: left;
+	width: 50%;
+	position:relative;
+
+	
+	}
+
+
+
+/* --------------------------- tres columnes -------------------------*/
+
+.trescolumnes{
+	
+	float: left;
+	width: 33%;
+	
+	position:relative;
+	
+	
+	}
+
+/* --------------------------- quatre columnes -------------------------*/
+
+.quatcolumnes{
+	
+	float: left;
+	width: 25%;
+	position:relative;
+	
+	
+	}
+
+.columnacont{
+	
+margin:1%;
+background-color:#fff;
+padding:10px 10px;
+	
+	}
+
+.mixtogran{
+	
+	float: left;
+	width: 75%;
+	position:relative;
+	
+	
+	}
+
+.mixtopetit{
+	
+	float: left;
+	width: 25%;
+	position:relative;
+	
+	
+	}
+
+
+
+/* --------------------------- menu -------------------------*/
+
+.menu{
+
+	float:right;
+	width:auto;
+	right:0px;
+}
+
+.menu ul{
+	margin:0;
+}
+
+.menu ul li{
+
+
+width:auto;
+background-color: #000;
+list-style: none;
+float:left;
+margin-bottom:1px;
+
+}
+
+.menu ul li a{
+padding:20px;
+color:#ffffff;
+display:block;
+
+}
+
+.menu ul li a:hover{
+	background-color: #0cf;
+	text-decoration: none;
+	color:#000;
+}
+
+ul li a:visited{
+
+	
+}
+
+/* --------------------------- menu -------------------------*/
+
+@media screen and (max-width: 800px){
+
+.contenidor{
+	margin: 0 auto;
+	overflow: hidden;
+	background-color:#CCC;
+	max-width: 100%;
+	
+	}
+
+}
+
+
+@media screen and (max-width: 600px){
+
+.banner{
+	width:auto;
+	height:200px;
+	clear:both;
+	margin-top:10px;
+	margin-bottom:10px;
+	background-color:#666;
+	
+	}
+
+.logo{
+	width:200px;
+	height:35px;
+	margin-top:15px;
+	margin-left:10px;
+	float:none;
+	font-size: 14px;
+	
+	}
+
+
+header{
+	
+	clear:none;
+	float:none;
+	width:100%;
+	height:auto;
+	left:0px;
+	
+	}
+
+/* --------------------------- menu -------------------------*/
+
+.menu{
+
+	float:none;
+	width:100%;
+	margin:0;
+
+}
+
+.menu ul{
+
+
+	padding:0;
+}
+
+.menu ul li{
+
+
+width:100%;
+background-color: #000;
+list-style: none;
+float:none;
+margin-bottom:1px;
+
+}
+
+.menu ul li a{
+
+color:#ffffff;
+display:block;
+margin:0;
+padding:15px;
+
+}
+
+.menu ul li a:visited{
+
+
+}
+
+/* --------------------------- menu -------------------------*/
+
+.novisible{
+	display:none;
+	
+	}
+
+.duescolumnes{
+	
+	
+	float: none;
+	width: 100%;
+	position:relative;
+
+	
+	}
+
+.quatcolumnes{
+	
+	float: none;
+	width: 100%;
+	position:relative;
+	
+	
+	}
+
+
+
+/* --------------------------- tres columnes -------------------------*/
+
+.trescolumnes{
+	
+	float: none;
+	width: 100%;
+	position:relative;
+	
+	
+	}
+
+.contenidor{
+	margin: 0 auto;
+	overflow: hidden;
+	background-color:#CCC;
+	max-width: 100%;
+	
+	}
+
+
+
+}
